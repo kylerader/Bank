@@ -25,6 +25,7 @@ namespace Web_App_Tests
         [Test]
         public void CreateAccountResultsInHavingANewCustomer()
         {
+            //this has been changed
             var bankAccountController = _kernel.Get<BankAccountController>();
             var viewResult = bankAccountController.Create("Joe", "Blow", 800);
             var firstCustomer = bankAccountController.CustomerRepository.GetAll().First();

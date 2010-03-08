@@ -5,3 +5,10 @@ C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App 10
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App 101\obj\Debug\Web App 101.pdb
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App 101\bin\Ninject.dll
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App 101\bin\Ninject.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\bin\Web App 101.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\bin\Web App 101.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\bin\Ninject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\bin\Ninject.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\obj\Debug\Web App 101.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App 101\obj\Debug\Web App 101.pdb

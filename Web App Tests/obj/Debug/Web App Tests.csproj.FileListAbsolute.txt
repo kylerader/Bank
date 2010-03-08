@@ -7,3 +7,12 @@ C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App Te
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\Web App Tests.dll
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\Web App Tests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\Web App Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\Web App Tests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\Web App 101.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\Web App 101.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\Web App Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\Web App Tests\obj\Debug\Web App Tests.pdb
