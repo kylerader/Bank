@@ -11,6 +11,7 @@ namespace Web_App_Tests
     {
         public override void Load()
         {
+            //BOOM!!
             Bind<ICustomerRepository>().To<CustomerRepositoryInMemory>();
             Bind<IBankRepository>().To<BankRepositoryInMemory>();
             Bind<IAccountRepository>().To<AccountRepositoryInMemory>();

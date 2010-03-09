@@ -9,6 +9,7 @@ namespace Web_App_101.Controllers
     [HandleError]
     public class HomeController : Controller
     {
+        //BOOM!!!
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";

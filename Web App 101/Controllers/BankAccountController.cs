@@ -20,7 +20,7 @@ namespace Web_App_101.Controllers
         public IAccountRepository AccountRepository { get; set; }
         [Inject]
         public IAuditLogRepository AuditLogRepository { get; set; }
-
+        //lets add more comments down here!!
 
         public ActionResult Index()
         {
@@ -60,6 +60,7 @@ namespace Web_App_101.Controllers
             return View();
         }
 
+        //Im putting coments all over!
         [HttpPost]
         public ActionResult Deposit(int id, decimal amount)
         {
