@@ -21,7 +21,7 @@ namespace Web_App_101.Controllers
         public IAccountRepository AccountRepository { get; set; }
         [Inject]
         public IAuditLogRepository AuditLogRepository { get; set; }
-
+        //lets add more comments down here!!
 
         public ActionResult Index()
         {
@@ -50,6 +50,8 @@ namespace Web_App_101.Controllers
             var creditPassed = bank.CheckCredit(customer);
             if (creditPassed)
             {
+                //this is a different branchs
+                //branch add 2
                 var newCustomer = CustomerRepository.CreateCustomer(customer);
                 var account = bank.OpenAccount(newCustomer);
                 var newAccount = AccountRepository.CreateAccount(account);
@@ -59,6 +61,7 @@ namespace Web_App_101.Controllers
             return View();
         }
 
+        //Im putting coments all over!
         [HttpPost]
         public ActionResult Deposit(int id, decimal amount)
         {
