@@ -13,7 +13,7 @@ namespace Web_App_Tests
     public class BankAccountControllerTests
     {
         readonly StandardKernel _kernel = new StandardKernel(new UnitTestModule());
-        //add this comment to trunk -- nolan
+        //add this comment to trunk -- nolan f
         
         [Test]
         public void CanCreateBankAccountController()
