@@ -13,6 +13,7 @@ namespace Web_App_101.Controllers
         //now this is also here HAHA
         //and this is also here more blah
         //derek's line, check 2, 3
+        //derek's test
         [Inject]
         public ICustomerRepository CustomerRepository { get; set; }
         [Inject]
