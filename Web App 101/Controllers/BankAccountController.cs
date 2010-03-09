@@ -11,6 +11,7 @@ namespace Web_App_101.Controllers
     public class BankAccountController : Controller
     {
         //now this is also here HAHA
+        //and this is also here more blah
         [Inject]
         public ICustomerRepository CustomerRepository { get; set; }
         [Inject]
