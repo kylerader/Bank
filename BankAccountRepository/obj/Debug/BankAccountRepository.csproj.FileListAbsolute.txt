@@ -1,0 +1,10 @@
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\BankAccountRepository.dll.config
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\BankAccountRepository.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\BankAccountRepository.pdb
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Web App 101.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Ninject.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Web App 101.pdb
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Ninject.xml
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\obj\Debug\BankAccountRepository.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountRepository\obj\Debug\BankAccountRepository.pdb

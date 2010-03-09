@@ -7,6 +7,14 @@
         private readonly int _ficoScore;
         private readonly int _id;
 
+        public Customer(int id, string firstName, string lastName, int ficoScore)
+        {
+            _firstName = firstName;
+            _lastName = lastName;
+            _ficoScore = ficoScore;
+            _id = id;
+        }
+
         public Customer(string firstName, string lastName, int ficoScore)
         {
             _firstName = firstName;

@@ -1,0 +1,13 @@
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountIntegrationTests.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountIntegrationTests.pdb
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountRepository.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Ninject.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\nunit.framework.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Web App 101.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountRepository.pdb
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Web App 101.pdb
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Ninject.xml
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\nunit.framework.xml
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.dll
+C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.pdb
