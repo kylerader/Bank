@@ -49,6 +49,7 @@ namespace Web_App_101.Controllers
             var creditPassed = bank.CheckCredit(customer);
             if (creditPassed)
             {
+                //this is a different branchs
                 var newCustomer = CustomerRepository.CreateCustomer(customer);
                 var account = bank.OpenAccount(newCustomer);
                 var newAccount = AccountRepository.CreateAccount(account);
