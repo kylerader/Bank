@@ -1,4 +1,6 @@
 <Modules>
   <Module PersistentId="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B" ModuleId="Web App 101" />
   <Module PersistentId="20ACD96C-57B6-43CB-9987-0A051445CBBB" ModuleId="Web App Tests" />
+  <Module PersistentId="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6" ModuleId="BankAccountIntegrationTests" />
+  <Module PersistentId="8942C6FE-9036-44DB-B118-4FA8A29F3C28" ModuleId="BankAccountRepository" />
 </Modules>

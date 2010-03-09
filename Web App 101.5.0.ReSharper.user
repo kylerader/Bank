@@ -21,38 +21,31 @@
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AccountRepositoryInMemory.cs" caret="627" fromTop="18" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Customer.cs" caret="879" fromTop="25" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="964" fromTop="33" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:UnitTestModule.cs" caret="556" fromTop="15" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:UnitTestModule.cs" caret="578" fromTop="15" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankRepositoryInMemory.cs" caret="285" fromTop="9" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="831" fromTop="18" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="938" fromTop="10" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AuditLogRepositoryInMemory.cs" caret="415" fromTop="8" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3354" fromTop="18" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="3279" fromTop="19" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="1323" fromTop="43" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Audit.cs" caret="213" fromTop="8" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:AuditLog.cs" caret="340" fromTop="10" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="1323" fromTop="43" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="3930" fromTop="29" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="1675" fromTop="17" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="761" fromTop="14" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="296" fromTop="11" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="346" fromTop="12" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="260" fromTop="11" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:CustomerRepository.cs" caret="286" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="565" fromTop="12" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="1036" fromTop="27" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="963" fromTop="23" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="963" fromTop="24" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="963" fromTop="2" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:UnitTestModule.cs" caret="556" fromTop="15" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="567" fromTop="13" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2788" fromTop="27" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="3420" fromTop="27" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="2803" fromTop="18" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2036" fromTop="14" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="1178" fromTop="6" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="1805" fromTop="17" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2436" fromTop="21" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3487" fromTop="19" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3104" fromTop="18" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2235" fromTop="14" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2128" fromTop="17" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2635" fromTop="21" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3686" fromTop="19" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3303" fromTop="18" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankRepositoryInMemory.cs" caret="284" fromTop="9" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankRepositoryInMemory.cs" caret="166" fromTop="5" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2788" fromTop="8" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2987" fromTop="8" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AuditLogRepositoryInMemory.cs" caret="264" fromTop="4" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AuditLogRepositoryInMemory.cs" caret="441" fromTop="19" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="938" fromTop="10" />
@@ -64,6 +57,17 @@
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="1372" fromTop="17" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="951" fromTop="16" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:AuditLog.cs" caret="340" fromTop="10" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2128" fromTop="6" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2128" fromTop="11" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2128" fromTop="17" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:CustomerRepository.cs" caret="0" fromTop="0" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="0" fromTop="0" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="0" fromTop="0" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="190" fromTop="7" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="185" fromTop="7" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="319" fromTop="11" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="186" fromTop="7" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:CustomerRepository.cs" caret="191" fromTop="7" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
