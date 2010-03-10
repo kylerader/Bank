@@ -66,7 +66,7 @@ namespace Web_App_101.Controllers
         public ActionResult Deposit(int id, decimal amount)
         {
             var bank = BankRepository.GetBank();
-            var auditLog = new AuditLog(bank);
+            //var auditLog = new AuditLog(bank);
             var customer = CustomerRepository.GetCustomerById(id);
             if (customer == null) throw new NotSupportedException(); 
             
@@ -106,6 +106,7 @@ namespace Web_App_101.Controllers
             if (account == null) throw new NotSupportedException();
 
             account.Withdraw(amount);
+            AccountRepository.UpdateAccountBalance(account);
             AuditLogRepository.WriteEntries(auditLog);
             return RedirectToAction("View", "BankAccount", customer.Id);
         }

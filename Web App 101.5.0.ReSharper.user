@@ -17,43 +17,29 @@
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Views/d:Account/f:Register.aspx" caret="992" fromTop="4" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Views/d:Shared/f:Site.Master" caret="1040" fromTop="10" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Views/d:BankAccount/f:Index.aspx" caret="0" fromTop="0" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AuditLogRepositoryInMemory.cs" caret="415" fromTop="8" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Audit.cs" caret="213" fromTop="8" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:AuditLog.cs" caret="340" fromTop="10" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="267" fromTop="11" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="0" fromTop="0" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="3299" fromTop="20" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:UnitTestModule.cs" caret="0" fromTop="0" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:CustomerRepository.cs" caret="2075" fromTop="29" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Customer.cs" caret="456" fromTop="15" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="247" fromTop="9" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="1384" fromTop="21" />
       <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="524" fromTop="13" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="784" fromTop="21" />
-      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="0" fromTop="0" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankRepositoryInMemory.cs" caret="0" fromTop="0" />
+      <File id="d:Miscellaneous Files/f:~vsE8F.sqlce/l:C!?DOCUME~1?ADMINI~1?LOCALS~1?Temp?~vsE8F.sqlce" caret="76" fromTop="0" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:BankRepository.cs" caret="0" fromTop="0" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:AuditLog.cs" caret="94" fromTop="3" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="0" fromTop="0" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:CustomerRepository.cs" caret="2294" fromTop="13" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="756" fromTop="13" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="1422" fromTop="20" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:UnitTestModule.cs" caret="415" fromTop="14" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Audit.cs" caret="162" fromTop="6" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="1558" fromTop="22" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AccountRepositoryInMemory.cs" caret="0" fromTop="0" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="1061" fromTop="19" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Bank.cs" caret="344" fromTop="11" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="1210" fromTop="20" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="1585" fromTop="25" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3578" fromTop="28" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AuditLogRepositoryInMemory.cs" caret="144" fromTop="6" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="992" fromTop="31" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="3499" fromTop="21" />
+      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="2864" fromTop="23" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="995" fromTop="21" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:IAccountRepository.cs" caret="858" fromTop="25" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AccountRepositoryInMemory.cs" caret="1140" fromTop="6" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:AccountRepositoryInMemory.cs" caret="1140" fromTop="18" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2560" fromTop="19" />
-      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="2816" fromTop="37" />
-      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="2816" fromTop="30" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="425" fromTop="2" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="1235" fromTop="18" />
-      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AccountRepository.cs" caret="3230" fromTop="16" />
-      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="0" fromTop="0" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="0" fromTop="0" />
-      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:Customer.cs" caret="456" fromTop="15" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="4398" fromTop="9" />
-      <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="4398" fromTop="18" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="4398" fromTop="27" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="4398" fromTop="18" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:Bank_Account_Tests.cs" caret="4398" fromTop="23" />
@@ -68,6 +54,22 @@
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="1401" fromTop="22" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:CustomerRepositoryInMemory.cs" caret="715" fromTop="19" />
       <File id="20ACD96C-57B6-43CB-9987-0A051445CBBB/f:BankAccountControllerTests.cs" caret="936" fromTop="20" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="2495" fromTop="24" />
+      <File id="d:Miscellaneous Files/f:~vsE8F.sqlce/l:C!?DOCUME~1?ADMINI~1?LOCALS~1?Temp?~vsE8F.sqlce" caret="36" fromTop="0" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="3901" fromTop="36" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="3200" fromTop="19" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2736" fromTop="18" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="2115" fromTop="21" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Controllers/f:BankAccountController.cs" caret="3654" fromTop="30" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="627" fromTop="15" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="807" fromTop="19" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="1557" fromTop="25" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="1198" fromTop="19" />
+      <File id="8942C6FE-9036-44DB-B118-4FA8A29F3C28/f:AuditLogRepository.cs" caret="1642" fromTop="29" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="3860" fromTop="29" />
+      <File id="9BD4AC0A-5525-49AD-9EBA-A44DBE22F5C6/f:BankAccountRepositoryTest.cs" caret="3524" fromTop="21" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="284" fromTop="7" />
+      <File id="AFC2B1C5-CF1F-4CAD-84DB-F965BB03F58B/d:Models/f:BankAccount.cs" caret="1393" fromTop="17" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -82,7 +84,7 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="22" />
+      <Item value="public" priority="23" />
       <Item value="class" priority="6" />
       <Item value="return" priority="18" />
       <Item value="_firstName" priority="0" />
@@ -90,7 +92,7 @@
       <Item value="_ficoScore" priority="0" />
       <Item value="bool" priority="0" />
       <Item value="if" priority="9" />
-      <Item value="customer" priority="10" />
+      <Item value="customer" priority="11" />
       <Item value="_minimumCreditScore" priority="0" />
       <Item value="true" priority="0" />
       <Item value="else" priority="0" />
@@ -98,23 +100,23 @@
       <Item value="asrt" priority="0" />
       <Item value="CheckCredit`0" priority="0" />
       <Item value="throw" priority="4" />
-      <Item value="new" priority="21" />
+      <Item value="new" priority="22" />
       <Item value="ArgumentNullException" priority="0" />
       <Item value="private" priority="5" />
       <Item value="readonly" priority="3" />
       <Item value="string" priority="3" />
       <Item value="Account`0" priority="6" />
-      <Item value="Customer`0" priority="10" />
+      <Item value="Customer`0" priority="11" />
       <Item value="_holder" priority="1" />
       <Item value="var" priority="20" />
       <Item value="account" priority="5" />
-      <Item value="decimal" priority="14" />
+      <Item value="decimal" priority="15" />
       <Item value="_balance" priority="1" />
-      <Item value="amount" priority="2" />
+      <Item value="amount" priority="4" />
       <Item value="Balance" priority="1" />
-      <Item value="LargeWithdrawAlert" priority="8" />
-      <Item value="void" priority="6" />
-      <Item value="Test" priority="0" />
+      <Item value="LargeWithdrawAlert" priority="9" />
+      <Item value="void" priority="7" />
+      <Item value="Test" priority="1" />
       <Item value="BankAccountControllerTests`0" priority="1" />
       <Item value="bankAccountController" priority="5" />
       <Item value="indexView" priority="0" />
@@ -178,12 +180,12 @@
       <Item value="Holder" priority="0" />
       <Item value="auditlog" priority="0" />
       <Item value="CollectionAssert`0" priority="0" />
-      <Item value="Audit`0" priority="1" />
+      <Item value="Audit`0" priority="3" />
       <Item value="_bank" priority="1" />
-      <Item value="this" priority="2" />
+      <Item value="this" priority="3" />
       <Item value="Audit" priority="0" />
-      <Item value="Action" priority="2" />
-      <Item value="Action&lt;decimal,Customer&gt;" priority="0" />
+      <Item value="Action" priority="3" />
+      <Item value="Action&lt;decimal,Customer&gt;" priority="1" />
       <Item value="GCCollectionMode`0" priority="1" />
       <Item value="Collection&lt;Account&gt;" priority="0" />
       <Item value="a" priority="1" />
@@ -191,11 +193,11 @@
       <Item value="IAuditLogRepository`0" priority="2" />
       <Item value="_auditLog" priority="5" />
       <Item value="matchingAuditLog" priority="0" />
-      <Item value="auditLogToSave" priority="2" />
+      <Item value="auditLogToSave" priority="4" />
       <Item value="AuditLogRepositoryInMemory`0" priority="0" />
       <Item value="AuditLogRepository" priority="1" />
       <Item value="audits" priority="0" />
-      <Item value="auditLog" priority="1" />
+      <Item value="auditLog" priority="2" />
       <Item value="static" priority="0" />
       <Item value="foreach" priority="0" />
       <Item value="in" priority="0" />
@@ -206,6 +208,9 @@
       <Item value="using" priority="0" />
       <Item value="BankAccountRepository" priority="0" />
       <Item value="Void`0" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="accountId" priority="0" />
+      <Item value="auditLogs" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.Customer">
       <Item value="FicoScore" priority="0" />
@@ -234,6 +239,7 @@
       <Item value="AccountRepository" priority="0" />
       <Item value="Deposit`0" priority="1" />
       <Item value="AuditLogRepository" priority="0" />
+      <Item value="Withdraw`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.ActionResult">
       <Item value="ExecuteResult`0" priority="0" />
@@ -242,6 +248,7 @@
       <Item value="Any`1" priority="0" />
       <Item value="First`1" priority="0" />
       <Item value="Count`1" priority="0" />
+      <Item value="Last`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Guid">
       <Item value="NewGuid`0" priority="0" />
@@ -260,6 +267,7 @@
       <Item value="ForEach`0" priority="1" />
       <Item value="All`1" priority="0" />
       <Item value="Clear`0" priority="1" />
+      <Item value="Last`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.IBankRepository">
       <Item value="GetBank`0" priority="0" />
@@ -281,10 +289,10 @@
       <Item value="Get`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.Account">
-      <Item value="Holder" priority="2" />
+      <Item value="Holder" priority="3" />
       <Item value="Deposit`0" priority="0" />
       <Item value="Balance" priority="1" />
-      <Item value="Withdraw`0" priority="0" />
+      <Item value="Withdraw`0" priority="1" />
       <Item value="LargeWithdrawAlert" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.IAccountRepository">
@@ -296,14 +304,23 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Action`2">
       <Item value="BeginInvoke`0" priority="0" />
+      <Item value="Invoke`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.AuditLog">
-      <Item value="Bank" priority="0" />
+      <Item value="Bank" priority="1" />
       <Item value="Count" priority="0" />
+      <Item value="Last`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web_App_101.Models.IAuditLogRepository">
       <Item value="GetAll`0" priority="0" />
       <Item value="WriteEntries`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Web_App_101.Models.Audit">
+      <Item value="Id" priority="0" />
+      <Item value="Amount" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

@@ -57,7 +57,36 @@ namespace BankAccountIntegrationTests
             Assert.AreEqual("Joe2", firstAccount.Holder.FirstName);
             Assert.AreEqual("Blow2", firstAccount.Holder.LastName);
         }
+
+        [Test]
+        public void WithdrawlMoneyFromAccount()
+        {
+            var bankAccountController = _kernel.Get<BankAccountController>();
+            var viewResult = bankAccountController.Create("Joe2", "Blow2", 800);
+            var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
+            bankAccountController.Deposit(firstCustomer.Id, 14000m);
+            bankAccountController.Withdraw(firstCustomer.Id, 500m);
+            var firstAccount = bankAccountController.AccountRepository.GetAll().Last();
+            Assert.AreEqual(13500m, firstAccount.Balance);
+            Assert.AreEqual("Joe2", firstAccount.Holder.FirstName);
+            Assert.AreEqual("Blow2", firstAccount.Holder.LastName);
+        }
+
+        [Test]
+        public void LargeWithdrawResultsInAudit()
+        {
+            var bankAccountController = _kernel.Get<BankAccountController>();
+            var viewResult = bankAccountController.Create("Joe", "Blow", 800);
+            var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
+            bankAccountController.Deposit(firstCustomer.Id, 30000m);
+            bankAccountController.Withdraw(firstCustomer.Id, 11000m);
+            bankAccountController.Withdraw(firstCustomer.Id, 10000m);
+            var auditLog = bankAccountController.AuditLogRepository.GetAll().Last();
+            Assert.AreEqual(10000m, auditLog.Amount);
+        }
     }
+
+
 
     class UnitTestModule : NinjectModule
     {

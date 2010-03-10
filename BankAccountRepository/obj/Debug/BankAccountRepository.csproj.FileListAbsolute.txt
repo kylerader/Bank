@@ -18,3 +18,10 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Web App 101.pdb
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Ninject.xml
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\obj\Debug\BankAccountRepository.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\NHibernate.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountRepository\bin\Debug\Iesi.Collections.xml
