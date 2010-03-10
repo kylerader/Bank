@@ -23,6 +23,18 @@ namespace BankAccountIntegrationTests
             var customer = bankAccountController.CustomerRepository.GetCustomerById(1);
             Assert.AreEqual(customer.LastName,"Lumberg");
         }
+
+        [Test]
+        public void InsertNewCustomer()
+        {
+            var bankAccountController = _kernel.Get<BankAccountController>();
+            var viewResult = bankAccountController.Create("Joe2", "Blow2", 800);
+            var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
+            Assert.AreEqual("Joe2", firstCustomer.FirstName);
+            Assert.AreEqual("Blow2", firstCustomer.LastName);
+        }
+
+
     }
 
     class UnitTestModule : NinjectModule

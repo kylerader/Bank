@@ -16,10 +16,11 @@ namespace Web_App_Tests
             throw new NotSupportedException();
         }
 
-        public Customer CreateCustomer(Customer newCustomerToSave)
+        public Customer CreateCustomer(int ficoScore, string lastName, string firstName)
         {
-            _customers.Add(newCustomerToSave);
-            return newCustomerToSave;
+            var customer = new Customer("Milton", "Waddams", 720);
+            _customers.Add(customer);
+            return customer;
         }
 
         public void Save(Customer newCustomer)

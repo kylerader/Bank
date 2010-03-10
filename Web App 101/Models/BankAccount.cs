@@ -6,10 +6,19 @@ namespace Web_App_101.Models
     {
         private readonly Customer _holder;
         public event Action<decimal, Customer> LargeWithdrawAlert;
+        private readonly int _id;
 
         public Account(Customer customer)
         {
             _holder = customer;
+            _id = CustomerNumberProvisioningService.NewCustomerNumber(); ;
+            Balance = 0;
+        }
+
+        public Account(Customer customer, int id)
+        {
+            _holder = customer;
+            _id = id;
             Balance = 0;
         }
 

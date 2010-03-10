@@ -8,9 +8,11 @@ namespace BankAccountRepository
 {
     public class BankRepository : IBankRepository
     {
+        private static readonly Bank ShittyBank = new Bank("ShittyBank", 720);
+
         public Bank GetBank()
         {
-            throw new NotImplementedException();
+            return ShittyBank;
         }
     }
 }

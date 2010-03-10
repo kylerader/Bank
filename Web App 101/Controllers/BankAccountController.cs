@@ -50,9 +50,7 @@ namespace Web_App_101.Controllers
             var creditPassed = bank.CheckCredit(customer);
             if (creditPassed)
             {
-                //this is a different branchs
-                //branch add 2
-                var newCustomer = CustomerRepository.CreateCustomer(customer);
+                var newCustomer = CustomerRepository.CreateCustomer(ficoScore.Value, lastName, firstName);
                 var account = bank.OpenAccount(newCustomer);
                 var newAccount = AccountRepository.CreateAccount(account);
                 return RedirectToAction("View", "BankAccount", newCustomer.Id);
@@ -60,6 +58,7 @@ namespace Web_App_101.Controllers
             AuditLogRepository.WriteEntries(auditLog);
             return View();
         }
+
 
         //Im putting coments all over!
         [HttpPost]

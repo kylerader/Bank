@@ -16,7 +16,8 @@ namespace Web_App_101.Models
     public interface ICustomerRepository
     {
         Customer GetCustomerById(int id);
-        Customer CreateCustomer(Customer newCustomerToSave);
+        //Customer CreateCustomer(Customer newCustomerToSave);
+        Customer CreateCustomer(int ficoScore, string lastName, string firstName);
         void Save(Customer newCustomer);
         List<Customer> GetAll();
     }
