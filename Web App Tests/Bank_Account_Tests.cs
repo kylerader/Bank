@@ -22,7 +22,7 @@ namespace Web_App_Tests
         {
             var customer = new Customer("Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
-            var canOpenAccount = bank.CheckCredit(customer);
+            var canOpenAccount = bank.CheckCredit(customer.FicoScore);
             Assert.AreEqual(true, canOpenAccount);
         }
 
@@ -31,7 +31,7 @@ namespace Web_App_Tests
         {
             var customer = new Customer("Peter", "Gibbons", 600);
             var bank = new Bank("Initech Bank", 680);
-            var canOpenAccount = bank.CheckCredit(customer);
+            var canOpenAccount = bank.CheckCredit(customer.FicoScore);
             Assert.AreEqual(false, canOpenAccount);
         }
 
@@ -40,14 +40,16 @@ namespace Web_App_Tests
         {
             var customer = new Customer("Peter", "Gibbons", 600);
             var bank = new Bank("Initech Bank", 680);
-            Assert.Throws<BadCreditException>(() => bank.OpenAccount(customer));
+            var account = new Account(customer);
+            Assert.Throws<BadCreditException>(() => bank.OpenAccount(account));
         }
 
         [Test]
         public void OpeningAccountWithNoCustomerThrowsException()
         {
             var bank = new Bank("Initech Bank", 680);
-            Assert.Throws<ArgumentNullException>(() => bank.OpenAccount(null));
+            Customer customer = null;
+            Assert.Throws<ArgumentNullException>(() => bank.OpenAccount(customer));
         }
 
         [Test]

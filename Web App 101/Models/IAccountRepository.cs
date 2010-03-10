@@ -30,7 +30,7 @@ namespace Web_App_101.Models
     public interface IAccountRepository
     {
         Account GetAccountByCustomer(Customer customer);
-        Account CreateAccount(Account accountToSave);
+        Account CreateAccount(Customer customer);
         List<Account> GetAll();
     }
 

@@ -17,8 +17,9 @@ namespace Web_App_Tests
             throw new NotSupportedException();
         }
 
-        public Account CreateAccount(Account accountToSave)
+        public Account CreateAccount(Customer customer)
         {
+            var accountToSave = new Account(customer);
             _accounts.Add(accountToSave);
             return accountToSave;
         }

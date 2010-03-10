@@ -44,21 +44,22 @@ namespace Web_App_101.Controllers
         public ActionResult Create(string firstName, string lastName, int? ficoScore)
         {
             var bank = BankRepository.GetBank();
-            var auditLog = new AuditLog(bank);
+            //var auditLog = new AuditLog(bank);
             if (ficoScore == null) throw new NotSupportedException();
-            var customer = new Customer(firstName, lastName, ficoScore.Value);
-            var creditPassed = bank.CheckCredit(customer);
+            var creditPassed = bank.CheckCredit(ficoScore.Value);
             if (creditPassed)
             {
                 var newCustomer = CustomerRepository.CreateCustomer(ficoScore.Value, lastName, firstName);
-                var account = bank.OpenAccount(newCustomer);
-                var newAccount = AccountRepository.CreateAccount(account);
+                var newAccount = AccountRepository.CreateAccount(newCustomer);
+                bank.OpenAccount(newAccount);
+                
                 return RedirectToAction("View", "BankAccount", newCustomer.Id);
             }
-            AuditLogRepository.WriteEntries(auditLog);
+            //AuditLogRepository.WriteEntries(auditLog);
             return View();
         }
 
+        
 
         //Im putting coments all over!
         [HttpPost]

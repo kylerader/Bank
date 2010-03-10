@@ -15,9 +15,9 @@ namespace Web_App_101.Models
             _minimumCreditScore = minimumCreditScore;
         }
 
-        public bool CheckCredit(Customer customer)
+        public bool CheckCredit(int ficoScore)
         {
-            return customer.FicoScore >= _minimumCreditScore;
+            return ficoScore >= _minimumCreditScore;
         }
 
         public Account OpenAccount(Customer customer)
@@ -27,12 +27,22 @@ namespace Web_App_101.Models
                 throw new ArgumentNullException();
             }
 
-            if(!CheckCredit(customer))
+            if(!CheckCredit(customer.FicoScore))
             {
                 throw new BadCreditException();
             }
 
             var account = new Account(customer);
+            _accounts.Add(account);
+            return account;
+        }
+
+        public Account OpenAccount(Account account)
+        {
+            if (account == null)
+            {
+                throw new ArgumentNullException();
+            }
             _accounts.Add(account);
             return account;
         }

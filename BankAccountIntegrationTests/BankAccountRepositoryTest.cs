@@ -20,8 +20,8 @@ namespace BankAccountIntegrationTests
         public void GetAccountNumber1()
         {
             var bankAccountController = _kernel.Get<BankAccountController>();
-            var customer = bankAccountController.CustomerRepository.GetCustomerById(1);
-            Assert.AreEqual(customer.LastName,"Lumberg");
+            var customer = bankAccountController.CustomerRepository.GetCustomerById(2);
+            Assert.AreEqual(customer.LastName,"test");
         }
 
         [Test]
@@ -34,6 +34,16 @@ namespace BankAccountIntegrationTests
             Assert.AreEqual("Blow2", firstCustomer.LastName);
         }
 
+        [Test]
+        public void InsertNewCustomerResultsInAccount()
+        {
+            var bankAccountController = _kernel.Get<BankAccountController>();
+            var viewResult = bankAccountController.Create("Joe2", "Blow2", 800);
+            var firstAccount = bankAccountController.AccountRepository.GetAll().Last();
+            Assert.AreEqual(0, firstAccount.Balance);
+            Assert.AreEqual("Joe2", firstAccount.Holder.FirstName);
+            Assert.AreEqual("Blow2", firstAccount.Holder.LastName);
+        }
 
     }
 

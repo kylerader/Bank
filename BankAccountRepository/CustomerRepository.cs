@@ -9,7 +9,7 @@ namespace BankAccountRepository
 {
     public class CustomerRepository : ICustomerRepository
     {
-        public Customer GetCustomerById(int id)
+        public static Customer GetCustomerById(int id)
         {
             var db = new SqlCeConnection("DataSource=\"..\\..\\..\\MyDatabase1.sdf\"");
             db.Open();
@@ -22,6 +22,11 @@ namespace BankAccountRepository
             var lastName = resultSet.GetString(resultSet.GetOrdinal("_lastName"));
             db.Close();
             return new Customer(id, firstName, lastName, ficoScore);
+        }
+
+        Customer ICustomerRepository.GetCustomerById(int id)
+        {
+            return GetCustomerById(id);
         }
 
         public Customer CreateCustomer(int ficoScore, string lastName, string firstName)

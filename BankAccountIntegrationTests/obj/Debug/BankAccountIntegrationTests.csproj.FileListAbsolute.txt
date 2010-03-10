@@ -11,3 +11,16 @@ C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccoun
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.dll
 C:\Users\Kyle Rader\documents\visual studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\BankAccountIntegrationTests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountIntegrationTests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountIntegrationTests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountRepository.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Ninject.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Web App 101.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\BankAccountRepository.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Web App 101.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\Ninject.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Web App 101\BankAccountIntegrationTests\obj\Debug\ResolveAssemblyReference.cache
