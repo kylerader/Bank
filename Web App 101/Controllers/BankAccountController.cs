@@ -74,7 +74,8 @@ namespace Web_App_101.Controllers
             if (account == null) throw new NotSupportedException(); 
     
             account.Deposit(amount);
-            AuditLogRepository.WriteEntries(auditLog);
+            AccountRepository.UpdateAccountBalance(account);
+            //AuditLogRepository.WriteEntries(auditLog);
             return RedirectToAction("View", "BankAccount", customer.Id);
         }
 

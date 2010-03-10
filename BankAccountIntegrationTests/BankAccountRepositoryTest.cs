@@ -45,6 +45,18 @@ namespace BankAccountIntegrationTests
             Assert.AreEqual("Blow2", firstAccount.Holder.LastName);
         }
 
+        [Test]
+        public void DepositMoneyIntoAccount()
+        {
+            var bankAccountController = _kernel.Get<BankAccountController>();
+            var viewResult = bankAccountController.Create("Joe2", "Blow2", 800);
+            var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
+            bankAccountController.Deposit(firstCustomer.Id, 600m);
+            var firstAccount = bankAccountController.AccountRepository.GetAll().Last();
+            Assert.AreEqual(600m, firstAccount.Balance);
+            Assert.AreEqual("Joe2", firstAccount.Holder.FirstName);
+            Assert.AreEqual("Blow2", firstAccount.Holder.LastName);
+        }
     }
 
     class UnitTestModule : NinjectModule

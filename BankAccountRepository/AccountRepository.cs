@@ -11,7 +11,28 @@ namespace BankAccountRepository
     {
         public Account GetAccountByCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            var db = new SqlCeConnection("DataSource=\"..\\..\\..\\MyDatabase1.sdf\"");
+            db.Open();
+            var cmdString = "SELECT * FROM Accounts WHERE _customerId = " + customer.Id + "";
+            var cmd = new SqlCeCommand(cmdString, db);
+            var resultSet = cmd.ExecuteResultSet(ResultSetOptions.Scrollable);
+            resultSet.ReadLast();
+            var id = resultSet.GetInt32(resultSet.GetOrdinal("_id"));
+            var balance = resultSet.GetDecimal(resultSet.GetOrdinal("_balance"));
+            db.Close();
+            var account = new Account(customer, id, balance);
+            return account;
+        }
+
+        public void UpdateAccountBalance(Account account)
+        {
+            if (account == null) throw new ArgumentNullException("account");
+            var db = new SqlCeConnection("DataSource=\"..\\..\\..\\MyDatabase1.sdf\"");
+            db.Open();
+            var cmdString = "UPDATE Accounts SET _balance=" + account.Balance + " WHERE _id = " + account.Id;
+            var cmd = new SqlCeCommand(cmdString, db);
+            cmd.ExecuteResultSet(ResultSetOptions.Scrollable);
+            db.Close();
         }
 
         public Account CreateAccount(Customer customer)
@@ -47,7 +68,7 @@ namespace BankAccountRepository
                 var balance = resultSet.GetDecimal(resultSet.GetOrdinal("_balance"));
                 var id = resultSet.GetInt32(resultSet.GetOrdinal("_id"));
                 var customer = CustomerRepository.GetCustomerById(customerId);
-                var account = new Account(customer, id);
+                var account = new Account(customer, id, balance);
                 accounts.Add(account);
             }
 

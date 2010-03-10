@@ -22,9 +22,21 @@ namespace Web_App_101.Models
             Balance = 0;
         }
 
+        public Account(Customer customer, int id, decimal balance)
+        {
+            _holder = customer;
+            _id = id;
+            Balance = balance;
+        }
+
         public Customer Holder
         {
             get { return _holder; }
+        }
+
+        public int Id
+        {
+            get { return _id; }
         }
 
         public decimal Balance { get; set; }

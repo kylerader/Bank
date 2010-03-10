@@ -17,6 +17,11 @@ namespace Web_App_Tests
             throw new NotSupportedException();
         }
 
+        public void UpdateAccountBalance(Account account)
+        {
+            return;
+        }
+
         public Account CreateAccount(Customer customer)
         {
             var accountToSave = new Account(customer);

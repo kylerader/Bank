@@ -11,7 +11,7 @@ namespace Web_App_Tests
         [Test]
         public void CustomerCanBeCreated()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1,"Milton", "Waddams", 720);
             Assert.AreEqual("Milton", customer.FirstName);
             Assert.AreEqual("Waddams", customer.LastName);
             Assert.AreEqual(720, customer.FicoScore);
@@ -20,7 +20,7 @@ namespace Web_App_Tests
         [Test]
         public void GoodFicoScoreCreditCheck()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var canOpenAccount = bank.CheckCredit(customer.FicoScore);
             Assert.AreEqual(true, canOpenAccount);
@@ -29,7 +29,7 @@ namespace Web_App_Tests
         [Test]
         public void BadFicoScoreCreditCheck()
         {
-            var customer = new Customer("Peter", "Gibbons", 600);
+            var customer = new Customer(1, "Peter", "Gibbons", 600);
             var bank = new Bank("Initech Bank", 680);
             var canOpenAccount = bank.CheckCredit(customer.FicoScore);
             Assert.AreEqual(false, canOpenAccount);
@@ -38,10 +38,9 @@ namespace Web_App_Tests
         [Test]
         public void OpeningAccountWithBadCreditThrowsException()
         {
-            var customer = new Customer("Peter", "Gibbons", 600);
+            var customer = new Customer(1, "Peter", "Gibbons", 600);
             var bank = new Bank("Initech Bank", 680);
-            var account = new Account(customer);
-            Assert.Throws<BadCreditException>(() => bank.OpenAccount(account));
+            Assert.Throws<BadCreditException>(() => bank.OpenAccount(customer));
         }
 
         [Test]
@@ -55,7 +54,7 @@ namespace Web_App_Tests
         [Test]
         public void OpeningAccountWithGoodCreditResultsInAccount()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var newAccount = bank.OpenAccount(customer);
             Assert.AreSame(customer, newAccount.Holder);
@@ -69,7 +68,7 @@ namespace Web_App_Tests
         [Test]
         public void DepositCashIntoAccountWorks()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var account = bank.OpenAccount(customer);
             account.Deposit(42m);
@@ -80,7 +79,7 @@ namespace Web_App_Tests
         [Test]
         public void WithdrawCashFromAccountWorks()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var account = bank.OpenAccount(customer);
             account.Deposit(50m);
@@ -91,7 +90,7 @@ namespace Web_App_Tests
         [Test]
         public void OverdrawingAccountThrowsException()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var account = bank.OpenAccount(customer);
             Assert.Throws<AccountOverdrawnException>(() => account.Withdraw(10m));
@@ -100,7 +99,7 @@ namespace Web_App_Tests
         [Test]
         public void WithdrawingOver10KCausesBigWithdrawAlert()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
             var account = bank.OpenAccount(customer);
             var alerted = false;
@@ -114,7 +113,7 @@ namespace Web_App_Tests
         [Test]
         public void WithdrawingOver10KCreatesAnAuditEntry()
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, "Milton", "Waddams", 720);
             var bank = new Bank("Initech Bank", 680);
 
             var account = bank.OpenAccount(customer);

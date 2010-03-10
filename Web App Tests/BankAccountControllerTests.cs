@@ -28,7 +28,7 @@ namespace Web_App_Tests
             //this has been changed AGAIN
             var bankAccountController = _kernel.Get<BankAccountController>();
             var viewResult = bankAccountController.Create("Joe", "Blow", 800);
-            var firstCustomer = bankAccountController.CustomerRepository.GetAll().First();
+            var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
             Assert.AreEqual("Joe", firstCustomer.FirstName);
             Assert.AreEqual("Blow", firstCustomer.LastName);
         }
@@ -38,7 +38,7 @@ namespace Web_App_Tests
         {
             var bankAccountController = _kernel.Get<BankAccountController>();
             var viewResult = bankAccountController.Create("Joe", "Blow", 800);
-            var firstAccount = bankAccountController.AccountRepository.GetAll().First();
+            var firstAccount = bankAccountController.AccountRepository.GetAll().Last();
             Assert.AreEqual("Joe", firstAccount.Holder.FirstName);
             Assert.AreEqual("Blow", firstAccount.Holder.LastName);
         }

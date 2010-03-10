@@ -18,7 +18,7 @@ namespace Web_App_Tests
 
         public Customer CreateCustomer(int ficoScore, string lastName, string firstName)
         {
-            var customer = new Customer("Milton", "Waddams", 720);
+            var customer = new Customer(1, firstName,lastName, ficoScore);
             _customers.Add(customer);
             return customer;
         }

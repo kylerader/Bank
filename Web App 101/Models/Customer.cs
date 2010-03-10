@@ -15,14 +15,6 @@
             _id = id;
         }
 
-        public Customer(string firstName, string lastName, int ficoScore)
-        {
-            _firstName = firstName;
-            _lastName = lastName;
-            _ficoScore = ficoScore;
-            _id = CustomerNumberProvisioningService.NewCustomerNumber();
-        }
-
         public string FirstName
         {
             get { return _firstName; }
