@@ -46,7 +46,7 @@ namespace Web_App_101.Models
             Balance += amount;
         }
 
-        public void Withdraw(decimal amount)
+        public bool Withdraw(decimal amount)
         {
             Balance -= amount;
             if(Balance<0)
@@ -56,8 +56,10 @@ namespace Web_App_101.Models
 
             if(amount>=10000m)
             {
-               LargeWithdrawAlert(amount, Holder);
+                if (LargeWithdrawAlert != null) LargeWithdrawAlert(amount, Holder);
+                else return true;
             }
+            return false;
         }
 
     }

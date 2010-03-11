@@ -9,6 +9,8 @@ namespace BankAccountRepository
 {
     public class AccountRepository : IAccountRepository
     {
+        private readonly List<Account> _accounts = new List<Account>();
+
         public Account GetAccountByCustomer(Customer customer)
         {
             var db = new SqlCeConnection("DataSource=\"..\\..\\..\\MyDatabase1.sdf\"");
@@ -49,6 +51,7 @@ namespace BankAccountRepository
             var id = resultSet.GetInt32(resultSet.GetOrdinal("_id"));
             db.Close();
             var account = new Account(customer, id);
+            _accounts.Add(account);
             return account;
         }
 

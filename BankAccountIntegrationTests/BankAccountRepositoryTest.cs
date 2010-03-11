@@ -80,9 +80,9 @@ namespace BankAccountIntegrationTests
             var firstCustomer = bankAccountController.CustomerRepository.GetAll().Last();
             bankAccountController.Deposit(firstCustomer.Id, 30000m);
             bankAccountController.Withdraw(firstCustomer.Id, 11000m);
-            bankAccountController.Withdraw(firstCustomer.Id, 10000m);
+            bankAccountController.Withdraw(firstCustomer.Id, 12000m);
             var auditLog = bankAccountController.AuditLogRepository.GetAll().Last();
-            Assert.AreEqual(10000m, auditLog.Amount);
+            Assert.AreEqual(12000m, auditLog.Amount);
         }
     }
 

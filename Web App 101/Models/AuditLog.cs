@@ -12,6 +12,11 @@ namespace Web_App_101.Models
             _bank.LargeWithdrawAlert += (amount, customer) => Add(new Audit(customer.Id, amount));
         }
 
+        public void Add(int id, decimal amount)
+        {
+            Add(new Audit(id, amount));
+        }
+
         public Bank Bank
         {
             get { return _bank; }

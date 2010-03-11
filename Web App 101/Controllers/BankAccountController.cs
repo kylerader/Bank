@@ -105,7 +105,8 @@ namespace Web_App_101.Controllers
             var account = AccountRepository.GetAccountByCustomer(customer);
             if (account == null) throw new NotSupportedException();
 
-            account.Withdraw(amount);
+            if (account.Withdraw(amount))auditLog.Add(id,amount);
+            
             AccountRepository.UpdateAccountBalance(account);
             AuditLogRepository.WriteEntries(auditLog);
             return RedirectToAction("View", "BankAccount", customer.Id);

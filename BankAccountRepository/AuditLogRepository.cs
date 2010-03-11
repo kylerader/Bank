@@ -11,6 +11,7 @@ namespace BankAccountRepository
     {
         public void WriteEntries(AuditLog auditLogToSave)
         {
+            if (auditLogToSave.Count == 0) return;
             var db = new SqlCeConnection("DataSource=\"..\\..\\..\\MyDatabase1.sdf\"");
             db.Open();
             var cmdString = "INSERT INTO AuditLog (_accountID,_amount,_timeStamp) VALUES (" + auditLogToSave.Last().Id + ", \'" +
